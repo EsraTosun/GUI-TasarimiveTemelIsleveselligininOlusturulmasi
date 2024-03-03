@@ -1,3 +1,5 @@
+
+
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow,QTabWidget,QAction, QWidget, QVBoxLayout, QLabel, QPushButton, QFileDialog,QMessageBox
 from PyQt5.QtGui import QImage, QPixmap, QColor
@@ -5,7 +7,10 @@ from PyQt5.QtCore import Qt
 
 import cv2
 import matplotlib.pyplot as plt
+
+
 import numpy as np
+import pyqtgraph as pg
 
 class Odev1Page(QWidget):
     def __init__(self):
